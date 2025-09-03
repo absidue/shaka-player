@@ -1,5 +1,22 @@
 # Changelog
 
+## [4.16.1](https://github.com/shaka-project/shaka-player/compare/v4.16.0...v4.16.1) (2025-09-03)
+
+
+### Bug Fixes
+
+* **Ads:** Fix overlays when the base stream is live ([#9040](https://github.com/shaka-project/shaka-player/issues/9040)) ([b65f685](https://github.com/shaka-project/shaka-player/commit/b65f685fd30ee18ef63d2962c8f061619a7b7aff))
+* Audit all usage of readBytes for memory leaks ([#9027](https://github.com/shaka-project/shaka-player/issues/9027)) ([849bff1](https://github.com/shaka-project/shaka-player/commit/849bff1db3a8391b007956efe2b8345266647a17))
+* **DASH:** Fix can't access property "delete", unusedStreamsPerPeriod[(i - periodsMissing)] is undefined ([#9038](https://github.com/shaka-project/shaka-player/issues/9038)) ([2ca6810](https://github.com/shaka-project/shaka-player/commit/2ca68105e5e04d186f24ba6d0385182875bc3f97))
+* **DASH:** Fix stall on multiperiod streams ([#9030](https://github.com/shaka-project/shaka-player/issues/9030)) ([bc6a7f2](https://github.com/shaka-project/shaka-player/commit/bc6a7f20ab94bf32c308e52e71587177f36d3611))
+* **HLS:** Allow get better segment size estimations ([#9043](https://github.com/shaka-project/shaka-player/issues/9043)) ([06d92a5](https://github.com/shaka-project/shaka-player/commit/06d92a5e56e7fd8fa04a06a0cc1b8918d3e6af4f))
+* **HLS:** Improve abort decision logic ([#9041](https://github.com/shaka-project/shaka-player/issues/9041)) ([3205235](https://github.com/shaka-project/shaka-player/commit/3205235aff1d273beef5bf1f2c91c3d24fb410d1))
+
+
+### Performance Improvements
+
+* Remove unnecessary ABR update during load ([#9029](https://github.com/shaka-project/shaka-player/issues/9029)) ([d465feb](https://github.com/shaka-project/shaka-player/commit/d465feb922fa1bbc22fda9878883d3604b5ff3f1))
+
 ## [4.16.0](https://github.com/shaka-project/shaka-player/compare/v4.15.0...v4.16.0) (2025-08-26)
 
 
